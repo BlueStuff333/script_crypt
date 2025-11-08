@@ -3,5 +3,5 @@
 fList = matlab.codetools.requiredFilesAndProducts('name.m');
 fList = fList(~contains(fList, matlabroot));
 for i = 1 : length(fList)
-  disp(fList(i))
+  disp(fList{i})
 end
