@@ -1,0 +1,2 @@
+sbatch --mail-type=BEGIN,END --mail-user=your.email@domain.com script.sh
+# BEGIN, END, FAIL, ALL
